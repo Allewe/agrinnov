@@ -1,0 +1,44 @@
+.prod-diapo{
+   position: relative;
+   overflow: hidden;
+}
+
+.nav-droite, .nav-gauche{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+   
+    font-size: 3em;
+    background-color: transparent;
+    &:hover{
+        transform: scale(1.1);
+    }
+    
+
+    .nav-droite{
+        right: 20px;
+    }
+
+    .nav-gauche{
+        left: 20px;
+    }
+}
+
+.prod-elements{
+    display: flex;
+    transition: 1s linear;
+}
+
+.prod-element{
+    flex: 1 0 100%;
+   
+    & > img{
+
+        width: 100%;
+       
+    }
+
+}
+
+
+

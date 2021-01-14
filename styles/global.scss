@@ -1,0 +1,17 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './assets/scss/mdb-free.scss';
+@import '../node_modules/swiper/swiper.scss';
+@import '../node_modules/swiper/components/navigation/navigation.scss';
+@import '../node_modules/swiper/components/pagination/pagination.scss';
+
+*{
+    box-sizing: border-box;
+}
+
+.proj-title{
+    margin : 35px auto;
+    text-align : center;
+    padding-top: 12px;
+} 
+
+ 

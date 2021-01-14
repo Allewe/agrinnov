@@ -1,0 +1,30 @@
+{
+  "name": "basic-export",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-icons": "^1.0.0",
+    "gray-matter": "^4.0.2",
+    "jquery": "^3.5.1",
+    "mdbreact": "^4.27.0",
+    "next": "latest",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "prop-types": "^15.7.2",
+    "raw-loader": "^4.0.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-id-swiper": "^4.0.0",
+    "react-markdown": "^4.3.1",
+    "react-syntax-highlighter": "^15.0.1",
+    "saas": "^1.0.0",
+    "styled-jsx-plugin-sass": "^1.0.0",
+    "swiper": "^6.3.3"
+  }
+}

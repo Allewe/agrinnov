@@ -1,0 +1,31 @@
+$color-boutique :rgb(250, 17, 0);
+
+.btn{
+
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 9999;
+    
+    
+    background-color: $color-boutique;
+    transition: transform 200ms ease-in-out;
+    &:hover{
+        
+    transform: scale(1.2);
+    background-color: darken($color-boutique, 5);
+    }
+    
+    
+    
+}
+
+.icon{
+    color:white; 
+    font-weight: bold
+
+}
